@@ -1,0 +1,32 @@
+{
+  "name": "hardcore-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rampage1213/HardcoreTicTacToe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rampage1213/HardcoreTicTacToe/issues"
+  },
+  "homepage": "https://github.com/rampage1213/HardcoreTicTacToe#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0"
+  }
+}
